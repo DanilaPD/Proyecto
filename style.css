@@ -1,0 +1,1595 @@
+/* Font: */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap");
+
+/* Reset: */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables: */
+:root {
+  --black: #05070d;
+  --black-light-version: #101c26;
+  --grey: #283540;
+  --orange: #e5721b;
+  --beige: #f2e6c2;
+  --beige1: #f8e5b8;
+  --beige2: #ffeebb;
+}
+
+/* Logo: */
+.logo {
+  margin: 33% 0% 48% 25%;
+  width: 25px;
+}
+
+/* Portada: */
+.portadaImg {
+  margin: 15% 2% 2% 0%;
+  width: 51%;
+}
+
+.login {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1em;
+  background-color: var(--grey);
+  color: white;
+  margin: -85% -1% 15% 48%;
+  padding: 47px 43px;
+}
+
+.botones button {
+  border-radius: 6px;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 0px 6px;
+  margin: 8% 4% 12% 4%;
+}
+
+.botones button:hover {
+  background-color: var(--black-light-version);
+  color: var(--beige);
+}
+
+/* Botón flotante de Whatsapp: */
+.btn-whatsapp {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp img {
+  width: 36px;
+}
+
+/* Intro: */
+.infoDeLaEmpresa {
+  border-top: 5px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.1em;
+  color: var(--black);
+  margin: -15% 0% -4% -1%;
+  padding: 28px 45px;
+  text-align: center;
+}
+
+.infoDeLaEmpresa h2,
+.infoDeLaEmpresa h3 {
+  font-weight: 600;
+}
+
+.infoImg {
+  width: 50%;
+  margin: 3% 1% 1% 1%;
+  border: 5px solid var(--black);
+}
+
+/* Carousel: */
+.productosDestacados h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--black);
+  margin: 8% 1% 7% 0%;
+  text-align: center;
+}
+
+.carousel1 .carousel img {
+  height: 41vh;
+  margin: -9% 0% 13% 0%;
+  padding: 10% 15%;
+}
+
+/* Iframe de Instagram: */
+.imagenDeInstagram h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--black);
+  margin: -9% 0% 8% -1%;
+  text-align: center;
+}
+
+.insta {
+  margin: 0px 49px 52px 16px;
+}
+
+/* Íconos de las redes sociales: */
+.famousIcons h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 0% 17% 1% 20%;
+}
+
+.icons {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* Footer: */
+.logoOnky img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.logoOnky h5 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 1. Nuestra misión: */
+.logoCompleto1 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg1 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title1-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title1-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 26% 0% 30%;
+  padding: 24px 0px;
+}
+
+.p1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  text-align: center;
+  margin: 3% 12% 10% 12%;
+}
+
+.ourMissionImg {
+  margin: -4% 3% 5% 30%;
+  width: 42%;
+  border: 3px solid var(--black);
+}
+
+.btn-whatsapp1 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 23px;
+  bottom: 85px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp1 img {
+  width: 36px;
+}
+
+.famousIcons1 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons1 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky1 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title1-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 2. Nuestros clientes: */
+.logoCompleto2 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg2 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title2-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title2-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 25% 0% 28%;
+  padding: 24px 0px;
+}
+
+.clientesImg img {
+  width: 74%;
+  height: 39vh;
+  margin: 4% 5% 10% 13%;
+}
+
+.p2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.5em;
+  text-align: center;
+  margin: 3% 11% 16% 12%;
+  font-weight: 600;
+}
+
+.btn-whatsapp2 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 23px;
+  bottom: 48px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp2 img {
+  width: 36px;
+}
+
+.iFrameInstagram {
+  margin: 0% 5% 18% 5%;
+}
+
+.famousIcons2 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons2 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky2 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title2-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/*  3. Contacto: */
+.logoCompleto3 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg3 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title3-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title3-B {
+  border-top: 1px solid var(--black);
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 28% 0% 30%;
+  padding: 24px 0px;
+}
+
+.contactUs3 {
+  width: 57%;
+  height: 28vh;
+  margin: 3% 7% 10% 23%;
+  border: 3px solid var(--black);
+}
+
+form {
+  margin: auto;
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 4% 0% -111% 0%;
+  height: 214vh;
+}
+
+form h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 32% 0% 24%;
+  padding: 24px 0px;
+}
+
+form h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -8% 3% -7% -5%;
+  padding: 24px 0px;
+}
+
+.infoClient {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.infoDelCliente {
+  margin: 7% 34% -13% 19%;
+  padding: 20px 0px;
+}
+
+.typeDeConsulta {
+  margin: 7% 2% 14% 3%;
+}
+
+.typeDeConsulta h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  margin: 0% 35% -11% 27%;
+  text-align: center;
+}
+
+.tipoDeC {
+  margin: 7% 2% -6% 5%;
+}
+
+.mensaje {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: 13% 21% 92% 16%;
+  padding: 11px 4px;
+}
+
+.comentarioTextArea {
+  display: block;
+  margin: 15% 0% 0% -12%;
+}
+
+.novedades h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin: -88% 8% 1% -1%;
+}
+
+.answer {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  margin: -17% -12% 9% 17%;
+}
+
+.submit,
+.submit:visited {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige1);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 33%;
+  margin: 4% 17% 126% 30%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.submit {
+  animation: outColorHover 3s ease forwards 1;
+}
+
+.submit:hover {
+  animation: inColorHover 3s ease forwards 1;
+}
+
+@keyframes inColorHover {
+  from {
+    background-color: var(--beige1);
+  }
+
+  to {
+    background-color: var(--beige2);
+  }
+}
+
+@keyframes outColorHover {
+  from {
+    background-color: var(--beige2);
+  }
+
+  to {
+    background-color: var(--beige1);
+  }
+}
+
+.product button a,
+.product button a:visited {
+  text-decoration: none;
+  color: var(--beige2);
+}
+
+.p3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: 123% 19% 14% 20%;
+  padding: 27px 0px;
+  border-top: 1px solid var(--black);
+  font-weight: bolder;
+}
+
+.btn-whatsapp3 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 54px;
+  bottom: 140px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp3 img {
+  width: 36px;
+}
+
+.famousIcons3 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons3 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky3 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title3-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 4. Productos de hombre: */
+.logoCompleto4 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg4 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title4-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title4-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 31% 0% 35%;
+  padding: 24px 0px;
+}
+
+.portadaHombre img {
+  width: 100%;
+  margin: 0% 0% 10% 0%;
+}
+
+.productosHombre h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 8% 18% 8% 19%;
+}
+
+.productosHombre img {
+  width: 71%;
+  height: 38vh;
+  margin: 3% 6% 2% 15%;
+}
+
+.productosHombre figcaption {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: 3% 9% 8% 11%;
+}
+
+.c1 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 10% -8% 11%;
+  padding: 52px 0px;
+}
+
+.carousel5 .carousel img {
+  height: 50vh;
+  margin: -9% 0% 13% 1%;
+  padding: 10% 15%;
+}
+
+.c2 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -14% 9% 6% 10%;
+  padding: 14px 0px;
+  font-weight: bolder;
+}
+
+.compra1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 12% 10%;
+  padding: 14px 0px;
+}
+
+.compra2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -19% 8% 18% 10%;
+  padding: 14px 0px;
+}
+
+.btn-whatsapp4 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 17px;
+  bottom: -43px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp4 img {
+  width: 36px;
+}
+
+.famousIcons4 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons4 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky4 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title4-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 5. Productos de mujer: */
+.logoCompleto5 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg5 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title5-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title5-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 26% 0% 31%;
+  padding: 24px 0px;
+}
+
+.portadaMujer img {
+  width: 100%;
+  height: 80vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.productosMujer h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 6% 18% 7% 18%;
+}
+
+.productosMujer img {
+  width: 71%;
+  height: 44vh;
+  margin: 3% 6% 2% 15%;
+}
+
+.productosMujer figcaption {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: 3% 9% 8% 11%;
+}
+
+.c3 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: -1% 10% -7% 11%;
+  padding: 50px 0px;
+}
+
+.carousel6 .carousel img {
+  height: 55vh;
+  margin: -9% 0% 13% 1%;
+  padding: 10% 15%;
+}
+
+.c4 {
+
+  font-family: "Alegreya Sans", sans-serif;
+  border-bottom: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -19% 11% 7% 12%;
+  padding: 14px 0px;
+  font-weight: bolder;
+}
+
+.compraMujer1 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 12% 10%;
+  padding: 14px 0px;
+}
+
+.compraMujer2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -19% 8% 18% 10%;
+  padding: 14px 0px;
+}
+
+.btn-whatsapp5 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 18px;
+  bottom: -24px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp5 img {
+  width: 36px;
+}
+
+.famousIcons5 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons5 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky5 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title5-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 6. Todos los productos: */
+.logoCompleto6 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg6 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title6-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title6-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 29% 0% 32%;
+  padding: 24px 0px;
+}
+
+.portada6 {
+  margin: 1% 0% 13% 0%;
+  width: 100%;
+}
+
+.productosTodos h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 4% 18% 9% 21%;
+  font-weight: 600;
+}
+
+.carousel-Nuestros-Productos .carousel img {
+  height: 63vh;
+}
+
+.calzas1 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 14% -7% 3% -8%;
+}
+
+.calzas {
+  width: 100%;
+  height: 68vh;
+  margin: 2% 11% 7% 0%;
+}
+
+.tops2 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 7% -7% 2% -6%;
+}
+
+.tops {
+  width: 100%;
+  height: 44vh;
+  margin: 2% 11% 7% 0%;
+
+}
+
+.conjuntos3 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 10% -8% 5% -7%;
+}
+
+.conjuntos {
+  width: 100%;
+  height: 72vh;
+  margin: 2% 12% 7% 0%;
+}
+
+.cuellitos4 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 11% -9% 4% -7%;
+}
+
+.cuellitos {
+  width: 100%;
+  height: 53vh;
+  margin: 2% 12% 6% 0%;
+}
+
+.gorras5 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 12% -9% 2% -6%;
+}
+
+.gorras {
+  width: 100%;
+  height: 60vh;
+  margin: 2% 7% 8% 0%;
+}
+
+.remerasPersonalizadas6 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 9% -8% 3% -6%;
+}
+
+.remerasPersonalizadas {
+  width: 101%;
+  height: 62vh;
+  margin: 2% 14% 6% 0%;
+}
+
+.remerasDeportivas7 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin: 12% -9% 3% -6%;
+}
+
+.remerasDeportivas {
+  width: 100%;
+  height: 55vh;
+  margin: 2% 12% 7% 0%;
+}
+
+.ultimaParte .c6 {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 10% -1% 11%;
+  padding: 33px 0px;
+  font-weight: bolder;
+}
+
+.ultimaParte .compraTodos6 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -1% 11% 12% 10%;
+  padding: 14px 0px;
+}
+
+.ultimaParte .compraTodos6- {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: -19% 8% 18% 10%;
+  padding: 14px 0px;
+}
+
+.btn-whatsapp6 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 72px;
+  bottom: 46px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp6 img {
+  width: 36px;
+}
+
+.famousIcons6 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 15% 17% 1% 20%;
+}
+
+.icons6 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky6 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title6-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 7. Iniciar sesión */
+.logoCompleto7 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg7 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title7-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title7-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 28% 0% 33%;
+  padding: 24px 0px;
+}
+
+.contactUs7 {
+  width: 100%;
+  height: 44vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.form-I-S {
+  margin: auto;
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 6% 0% -75% 0%;
+  height: 115vh;
+}
+
+.form-I-S h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0% 31% 5% 24%;
+  padding: 24px 0px;
+}
+
+.info-I-S {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -8% 3% 6% -8%;
+  padding: 24px 0px;
+}
+
+.infoClient-I-S {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.infoDelCliente-I {
+  margin: -13% 26% -3% 16%;
+  padding: 24px 0px;
+}
+
+.infoDelCliente-S {
+  margin: -4% 22% 3% 13%;
+  padding: 24px 0px;
+}
+
+.submit-I-S,
+.submit-I-S:visited {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige1);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 32%;
+  margin: 4% 18% 13% 30%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.submit-I-S {
+  animation: outColorHover 3s ease forwards 1;
+}
+
+.submit-I-S:hover {
+  animation: inColorHover 3s ease forwards 1;
+}
+
+@keyframes inColorHover {
+  from {
+    background-color: var(--beige1);
+  }
+
+  to {
+    background-color: var(--beige2);
+  }
+}
+
+@keyframes outColorHover {
+  from {
+    background-color: var(--beige2);
+  }
+
+  to {
+    background-color: var(--beige1);
+  }
+}
+
+.passwordP {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  text-align: center;
+  margin: -6% 14% 11% 7%;
+  border-top: 1px solid var(--black);
+}
+
+.botonesI-S button,
+.botonesI-S button:visited {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige1);
+  font-size: 1em;
+  font-weight: 600;
+  width: 45%;
+  margin: 30% 0% -25% 23%;
+  padding: 8px 23px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.botones-I-S button {
+  animation: outColorHover 3s ease forwards 1;
+}
+
+.botones-I-S button:hover {
+  animation: inColorHover 3s ease forwards 1;
+}
+
+@keyframes inColorHover {
+  from {
+    background-color: var(--beige1);
+  }
+
+  to {
+    background-color: var(--beige2);
+  }
+}
+
+@keyframes outColorHover {
+  from {
+    background-color: var(--beige2);
+  }
+
+  to {
+    background-color: var(--beige1);
+  }
+}
+
+.botones-I-S button a,
+.botones-I-S button a:visited {
+  text-decoration: none;
+  color: var(--beige2);
+}
+
+.gmail {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  text-align: center;
+  margin: 27% 8% 9% -2%;
+  font-weight: 600;
+}
+
+.btn-whatsapp7 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 32px;
+  bottom: 60px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp7 img {
+  width: 36px;
+}
+
+.famousIcons7 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 95% 17% 1% 20%;
+}
+
+.icons7 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky7 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title7-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
+
+/* 8. Registrate */
+.logoCompleto8 {
+  width: 44%;
+  margin: 4% 4% 2% 29%;
+}
+
+.logoImg8 {
+  width: 8%;
+  margin: -15% 3% 0% -76%;
+}
+
+.title8-A {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% 24% 0% 25%;
+}
+
+.title8-B {
+  font-family: "Alegreya Sans", sans-serif;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin: 4% 30% 0% 35%;
+  padding: 24px 0px;
+}
+
+.contactUs8 {
+  width: 100%;
+  height: 44vh;
+  margin: 0% 0% 10% 0%;
+}
+
+.form-R-8 {
+  margin: auto;
+  border-top: 3px solid black;
+  background-color: var(--beige);
+  padding: 2% 0 2% 10%;
+  box-shadow: 2px 2px 10px 6px rgba(2, 2, 2, 0.315);
+  margin: 4% 0% -111% 0%;
+  height: 159vh;
+}
+
+.form-R-8 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-weight: bolder;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 0% -6% 0% -13%;
+  padding: 24px 0px;
+}
+
+.info-R-8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.3em;
+  text-align: center;
+  margin: -9% 11% 9% 4%;
+  padding: 24px 0px;
+}
+
+.infoClient8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.1em;
+  text-align: center;
+  margin: -8% 5% 0% 0%;
+  padding: 24px 0px;
+  display: inline;
+}
+
+.infoDelCliente8 {
+  margin: -14% 24% 9% 18%;
+  padding: 24px 0px;
+}
+
+.novedades8 h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  margin: -11% 19% 4% 13%;
+}
+
+.answer8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1em;
+  margin: -3% 11% 8% 1%;
+}
+
+.submit8,
+.submit8:visited {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--beige1);
+  font-size: 1.1em;
+  font-weight: 600;
+  width: 44%;
+  margin: 5% 37% 7% 24%;
+  padding: 7px 0px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px var(--black-light-version);
+  text-align: center;
+}
+
+.submit8 {
+  animation: outColorHover 3s ease forwards 1;
+}
+
+.submit8:hover {
+  animation: inColorHover 3s ease forwards 1;
+}
+
+@keyframes inColorHover {
+  from {
+    background-color: var(--beige1);
+  }
+
+  to {
+    background-color: var(--beige2);
+  }
+}
+
+@keyframes outColorHover {
+  from {
+    background-color: var(--beige2);
+  }
+
+  to {
+    background-color: var(--beige1);
+  }
+}
+
+.submit8 button a,
+.submit8 button a:visited {
+  text-decoration: none;
+  color: var(--beige2);
+}
+
+.p8 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: var(--black);
+  font-size: 1.4em;
+  text-align: center;
+  margin: 123% 19% 14% 21%;
+  padding: 27px 0px;
+  border-top: 1px solid var(--black);
+  font-weight: bolder;
+}
+
+.btn-whatsapp8 {
+  display: block;
+  width: 23px;
+  height: 151px;
+  color: #fff;
+  position: fixed;
+  right: 35px;
+  bottom: 162px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.btn-whatsapp8 img {
+  width: 36px;
+}
+
+.famousIcons8 h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.4em;
+  color: var(--black);
+  text-align: center;
+  margin: 21% 17% 1% 20%;
+}
+
+.icons8 {
+  margin: 4% 22% 3% 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.logoOnky8 img {
+  width: 18%;
+  margin: 25% 40% -1% 42%;
+  padding: 1% 3%;
+}
+
+.title8-C {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 0.8em;
+  color: var(--black);
+  text-align: center;
+  margin: 1% 2% 4% 3%;
+}
