@@ -2470,64 +2470,76 @@ a {
 
 .login {
   margin: -81% -7% 14% 50%;
-  padding: 182px 63px;
+  padding: 178px 63px;
 }
 
 .login h3 {
-  margin: -15% 2% 0% -2%;
+  margin: -15% 2% 0% 0%;
   font-size: 2.1em;
 }
 
-  .botones button {
-    font-size: 1.7em;
-    padding: 8px 4px;
-    margin: 16% 0% 8% 4%;
-  }
+.botones .boton1 button {
+ padding: 9px 1px;
+  width: 53%;
+}
 
-  .infoDeLaEmpresa h2 {
-    margin: 6% -4% 5% -9%;
-  }
+.botones .boton2 button {
+  margin: 2% 0% 0% 1%;
+  padding: 9px 0px;
+  width: 53%;
+}
 
-  .infoDeLaEmpresa h3 {
-    margin: 2% -6% 10% -11%;
-  }
+.botones button {
+  margin: 16% 0% 7% 1%;
+}
 
-  .infoDeLaEmpresa p {
-    font-size: 1.4em;
-    margin: 0% 17% 10% 13%;
-  }
+.infoDeLaEmpresa h2 {
+  font-size: 2.2em;
+  margin: 6% -4% 5% 1%;
+}
 
-  .infoImg {
-    margin: 0% -5% 4% -8%;
-  }
+.infoDeLaEmpresa h3 {
+  font-size: 1.6em;
+  margin: 7% -5% 8% 0%;
+}
 
-  .productosDestacados h2 {
-    font-size: 1.7em;
-    margin: 10% -4% 2% 0%;
-  }
+.infoDeLaEmpresa p {
+  font-size: 1.4em;
+  margin: 9% -5% 11% 0%;
+}
 
-  .carousel1 .carousel img {
-    height: 89vh;
-    margin: -5% 0% 14% 1%;
-  }
+.infoImg {
+  margin: 0% -5% 4% -6%;
+}
 
-  .imagenDeInstagram h2 {
-    font-size: 1.7em;
-    margin: -9% -7% 6% -5%;
-  }
+.productosDestacados h2 {
+  font-size: 1.7em;
+  margin: 11% -4% -1% 0%;
+}
+
+.carousel1 .carousel img {
+  height: 101vh;
+  margin: -5% 0% 0% 0%;
+}
+
+.imagenDeInstagram h2 {
+  font-size: 1.7em;
+  margin: 0% -7% 4% 2%;
+}
 
   .insta {
+    width: 70%;
     margin: 0px 7px 0px 121px;
-  }
+}
 
-  .famousIcons h2 {
-    margin: 27% 14% 0% 16%;
-    font-size: 1.7em;
-  }
+.famousIcons h2 {
+  margin: 23% 14% 0% 15%;
+  font-size: 1.7em;
+}
 
-  .icons {
-    margin: 7% 17% 3% 19%;
-  }
+.icons {
+  margin: 7% 20% 3% 20%;
+}
 
   i {
     font-size: 1.2em;
@@ -2535,17 +2547,17 @@ a {
 
   .logoOnky img {
     margin: 26% 40% -1% 41%;
-  }
+}
 
-  .logoOnky h5 {
-    font-size: 1em;
-    margin: 1% -2% 6% -2%;
-  }
+.logoOnky h5 {
+  font-size: 1em;
+  margin: 1% -2% 6% -1%;
+}
 
-  .btn-whatsapp {
-    right: 78px;
-    bottom: 97px;
-  }
+.btn-whatsapp {
+  right: 13px;
+  bottom: -14px;
+}
 
   /* 1. Nuestros misión: */
 
