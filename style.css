@@ -16,7 +16,7 @@
   --grey: #283540;
   --orange: #e5721b;
   --beige: #f2e6c2;
-  --beige1: #fff2d3;
+  --beige1: #f5dfae;
   --beige2: #fff2d1;
 }
 
@@ -509,11 +509,10 @@ a {
   margin: -17% -13% 7% 15%;
 }
 
-.submit,
-.submit:visited {
+.submit {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
-  background-color: var(--beige1);
+  background-color: var(--beige);
   font-size: 1.1em;
   font-weight: 600;
   width: 34%;
@@ -524,38 +523,15 @@ a {
   text-align: center;
 }
 
-.submit {
-  animation: outColorHover 3s ease forwards 1;
-}
-
 .submit:hover {
-  animation: inColorHover 3s ease forwards 1;
+  background-color: var(--beige1);
+  color: var(--black);
 }
 
-@keyframes inColorHover {
-  from {
-    background-color: var(--beige1);
-  }
-
-  to {
-    background-color: var(--beige2);
-  }
-}
-
-@keyframes outColorHover {
-  from {
-    background-color: var(--beige2);
-  }
-
-  to {
-    background-color: var(--beige1);
-  }
-}
-
-.product button a,
-.product button a:visited {
+.submit a,
+.submit a:visited {
   text-decoration: none;
-  color: var(--beige2);
+  color: var(--black);
 }
 
 .p3 {
@@ -1366,10 +1342,10 @@ a {
 }
 
 .submit-I-S,
-.submit-I-S:visited {
+.submit-I-S {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
-  background-color: var(--beige1);
+  background-color: var(--beige);
   font-size: 1.1em;
   font-weight: 600;
   width: 32%;
@@ -1380,32 +1356,15 @@ a {
   text-align: center;
 }
 
-.submit-I-S {
-  animation: outColorHover 3s ease forwards 1;
-}
-
 .submit-I-S:hover {
-  animation: inColorHover 3s ease forwards 1;
+  background-color: var(--beige1);
+  color: var(--black);
 }
 
-@keyframes inColorHover {
-  from {
-    background-color: var(--beige1);
-  }
-
-  to {
-    background-color: var(--beige2);
-  }
-}
-
-@keyframes outColorHover {
-  from {
-    background-color: var(--beige2);
-  }
-
-  to {
-    background-color: var(--beige1);
-  }
+.submit-I-S a,
+.submit-I-S a:visited {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .passwordP {
@@ -1417,17 +1376,16 @@ a {
   border-top: 1px solid var(--black);
 }
 
-.passwordP button a,
-.passwordP button a:visited {
+.passwordP a,
+.passwordP a:visited {
   text-decoration: none;
-  color: var(--beige2);
+  color: var(--black-light-version);
 }
 
-.botonesI-S button,
-.botonesI-S button:visited {
+.botonesI-S button {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
-  background-color: var(--beige1);
+  background-color: var(--beige);
   font-size: 1em;
   font-weight: 600;
   width: 44%;
@@ -1440,38 +1398,15 @@ a {
   flex-wrap: nowrap;
 }
 
-.botones-I-S button {
-  animation: outColorHover 3s ease forwards 1;
+.botonesI-S button:hover {
+  background-color: var(--beige1);
+  color: var(--black);
 }
 
-.botones-I-S button:hover {
-  animation: inColorHover 3s ease forwards 1;
-}
-
-@keyframes inColorHover {
-  from {
-    background-color: var(--beige1);
-  }
-
-  to {
-    background-color: var(--beige2);
-  }
-}
-
-@keyframes outColorHover {
-  from {
-    background-color: var(--beige2);
-  }
-
-  to {
-    background-color: var(--beige1);
-  }
-}
-
-.botones-I-S button a,
-.botones-I-S button a:visited {
+.botonesI-S button a,
+.botonesI-S button a:visited {
   text-decoration: none;
-  color: var(--beige2);
+  color: var(--black);
 }
 
 .btn-whatsapp7 {
@@ -1620,11 +1555,10 @@ a {
   margin: 0% 11% 8% 1%;
 }
 
-.submit8,
-.submit8:visited {
+.submit8 {
   font-family: "Alegreya Sans", sans-serif;
   color: var(--black);
-  background-color: var(--beige1);
+  background-color: var(--beige);
   font-size: 1.1em;
   font-weight: 600;
   width: 44%;
@@ -1635,38 +1569,15 @@ a {
   text-align: center;
 }
 
-.submit8 {
-  animation: outColorHover 3s ease forwards 1;
-}
-
 .submit8:hover {
-  animation: inColorHover 3s ease forwards 1;
+  background-color: var(--beige1);
+  color: var(--black);
 }
 
-@keyframes inColorHover {
-  from {
-    background-color: var(--beige1);
-  }
-
-  to {
-    background-color: var(--beige2);
-  }
-}
-
-@keyframes outColorHover {
-  from {
-    background-color: var(--beige2);
-  }
-
-  to {
-    background-color: var(--beige1);
-  }
-}
-
-.submit8 button a,
-.submit8 button a:visited {
+.submit8 a,
+.submit8 a:visited {
   text-decoration: none;
-  color: var(--beige2);
+  color: var(--black);
 }
 
 .p8 {
