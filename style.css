@@ -4659,5 +4659,622 @@ a {
     width: 62px;
   }
 
+  /* 6. Todos los productos: */
+
+  .logoCompleto5 {
+    margin: 7% 4% 4% 29%;
+  }
+
+  .logoImg5 {
+    margin: -17% 4% -1% -71%;
+  }
+
+  .title5-A {
+    font-size: 3em;
+    margin: 0% 18% 0% 17%;
+  }
+
+  .title5-B {
+    font-size: 2.6em;
+    margin: 4% 40% 4% 41%;
+  }
+
+  .portada6 {
+    width: 52%;
+    height: 57vh;
+    margin: 0% 1% 1% 25%;
+  }
+
+  .productosTodos h3 {
+    font-size: 2.6em;
+    margin: 7% 7% 3% 7%;
+  }
+
+  .carousel-Nuestros-Productos .carousel img {
+    height: 116vh;
+    padding: 126px 309px;
+    margin: -9% 0% -5% 0%;
+  }
+
+  .calzas1 h3 {
+    font-size: 3em;
+    margin: 7% 6% 0% 7%;
+  }
+
+  .calzas {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .tops2 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .tops {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .conjuntos3 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .conjuntos {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .cuellitos4 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .cuellitos {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .gorras5 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .gorras {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .remerasPersonalizadas6 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .remerasPersonalizadas {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .remerasDeportivas7 h3 {
+    font-size: 3em;
+    margin: 4% 6% 0% 7%;
+  }
+
+  .remerasDeportivas {
+    margin: 2% 11% 3% 20%;
+  }
+
+  .ultimaParte .c6 {
+    font-size: 2.6em;
+    margin: -14% 11% 15% 11%;
+  }
+
+  .ultimaParte .compraTodos .compraTodos6 {
+    font-size: 3em;
+    margin: 3% 13% -2% 14%;
+  }
+
+  .ultimaParte .compraTodos .compraTodos6- {
+    font-size: 3em;
+    margin: 2% 10% -1% 11%;
+  }
+
+  .famousIcons6 h2 {
+    margin: 16% 14% 0% 16%;
+    font-size: 3em;
+  }
+
+  .icons6 {
+    margin: 6% 19% 3% 21%;
+  }
+
+  .logoOnky6 h5 {
+    font-size: 1.5em;
+  }
+
+  .btn-whatsapp6 {
+    right: 17px;
+    bottom: 225px;
+  }
+
+  .btn-whatsapp6 img {
+    width: 62px;
+  }
+
+  /* 7. Iniciar sesión */
+
+  .logoCompleto6 {
+    margin: 7% 4% 4% 29%;
+  }
+
+  .logoImg6 {
+    margin: -17% 4% -1% -71%;
+  }
+
+  .title6-A {
+    font-size: 3em;
+    margin: 0% 18% 0% 17%;
+  }
+
+  .title6-B {
+    font-size: 2.6em;
+    margin: 4% 40% 4% 41%;
+  }
+
+  .form-I-S {
+    height: 182vh;
+  }
+
+  .form-I-S h2 {
+    font-size: 3em;
+    margin: 10% 31% 8% 25%;
+  }
+
+  .info-I-S {
+    font-size: 2.5em;
+    margin: -4% 15% 9% 9%;
+  }
+
+  .infoDelCliente-I {
+    margin: -3% 39% 4% 31%;
+    font-size: 1.9em;
+  }
+
+  .infoDelCliente-S {
+    margin: -1% 39% 3% 31%;
+    font-size: 1.9em;
+  }
+
+  .submit-I-S,
+  .submit-I-S:visited {
+    margin: 5% 18% 12% 38%;
+    width: 17%;
+    padding: 17px 1px;
+  }
+
+  .passwordP {
+    font-size: 1.7em;
+    margin: -9% 29% 11% 21%;
+  }
+
+  .botonesI-S button,
+  .botonesI-S button:visited {
+    margin: 1% 0% 4% 36%;
+    width: 20%;
+    padding: 20px 1px;
+  }
+
+  .famousIcons7 h2 {
+    margin: 16% 14% 0% 16%;
+    font-size: 3em;
+  }
+
+  .icons7 {
+    margin: 6% 19% 3% 21%;
+  }
+
+  .logoOnky7 h5 {
+    font-size: 1.5em;
+  }
+
+  .btn-whatsapp7 {
+    right: 17px;
+    bottom: 332px;
+  }
+
+  .btn-whatsapp7 img {
+    width: 62px;
+  }
+
+  /* 8. Registrate */
+
+  .logoCompleto8 {
+    margin: 7% 4% 4% 29%;
+  }
+
+  .logoImg8 {
+    margin: -17% 4% -1% -71%;
+  }
+
+  .title8-A {
+    font-size: 3em;
+    margin: 0% 18% 0% 17%;
+  }
+
+  .title8-B {
+    font-size: 2.6em;
+    margin: 4% 40% 4% 41%;
+  }
+
+  .form-R-8 {
+    height: 242vh;
+  }
+
+  .form-R-8 h2 {
+    font-size: 3em;
+    margin: 9% -6% 5% -4%;
+  }
+
+  .info-R-8 {
+    font-size: 2.5em;
+    margin: -2% 10% 11% -1%;
+  }
+
+  .infoDelCliente8 {
+    font-size: 2em;
+    margin: -5% 44% 7% 33%;
+  }
+
+  .novedades8 h3 {
+    font-size: 2.5em;
+    margin: 1% 9% 2% -2%;
+  }
+
+  .answer8 {
+    font-size: 2em;
+    margin: 3% 10% 8% 0%;
+  }
+
+  .submit8,
+  .submit8:visited {
+    width: 24%;
+    padding: 24px 1px;
+    margin: 3% 37% 7% 27%;
+  }
+
+  .p8 {
+    font-size: 2.8em;
+    margin: 123% 34% 14% 35%;
+  }
+
+  .famousIcons8 h2 {
+    margin: 7% 14% 0% 16%;
+    font-size: 3em;
+  }
+
+  .icons8 {
+    margin: 6% 19% 3% 21%;
+  }
+
+  .logoOnky8 h5 {
+    font-size: 1.5em;
+  }
+
+  .btn-whatsapp8 {
+    right: 17px;
+    bottom: 332px;
+  }
+
+  .btn-whatsapp8 img {
+    width: 62px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  /* Index */
+
+  .login h3 {
+    margin: 15% 27% -4% 9%;
+  }
+
+  .login {
+    padding: 331px 63px;
+  }
+
+  .infoDeLaEmpresa p {
+    margin: 0% 12% 8% 14%;
+  }
+
+  .carousel1 .carousel img {
+    height: 96vh;
+  }
+
+  .insta {
+    margin: -24px 7px -12px 250px;
+  }
+
+  .famousIcons h2 {
+    margin: 16% 14% 0% 15%;
+  }
+
+  .icons {
+    margin: 6% 19% 3% 19%;
+  }
+
+  .logoOnky img {
+    margin: 27% 40% -1% 40%;
+  }
+
+  .logoOnky h5 {
+    font-size: 1.5em;
+    margin: 1% 1% 1% -2%;
+  }
+
+  .btn-whatsapp {
+    right: 19px;
+    bottom: 22px;
+  }
+
+  /* 2. Nuestros clientes: */
+
+  .title1-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .p1 {
+    margin: 5% 22% 13% 22%;
+  }
+
+  .ourMissionImg {
+    margin: -4% 3% 6% 31%;
+    width: 38%;
+  }
+
+  .famousIcons1 h2 {
+    margin: 15% 15% 0% 15%;
+  }
+
+  .icons1 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp1 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /*  2. Nuestros clientes: */
+
+  .title2-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .clientesImg img {
+    width: 72%;
+    height: 112vh;
+    margin: 4% 5% 3% 14%;
+  }
+
+  .p2 {
+    margin: 7% 2% 9% 1%;
+  }
+
+  .iFrameInstagram {
+    margin: 0% 5% 15% 14%;
+    padding: 1px 140px;
+  }
+
+  .famousIcons2 h2 {
+    margin: 5% 15% 0% 15%;
+  }
+
+  .icons2 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp2 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 3. Contacto: */
+
+  .title3-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .contactUs3 {
+    height: 80vh;
+  }
+
+  .contact h2 {
+    margin: 9% 31% 6% 20%;
+  }
+
+  .infoDelCliente {
+    margin: 7% 41% -4% 29%;
+  }
+
+  .contact .typeDeConsulta h3 {
+    margin: -3% 31% 0% 0%;
+  }
+
+  .tipoDeC {
+    margin: 2% 2% -1% 19%;
+  }
+
+  select {
+    width: 100%;
+    height: 6vh;
+  }
+
+  .mensaje {
+    margin: -6% 45% 10% 32%;
+  }
+
+  .comentarioTextArea {
+    margin: 10% 0% 0% 1%;
+    width: 100%;
+  }
+
+  .famousIcons3 h2 {
+    margin: 5% 15% 0% 15%;
+  }
+
+  .icons3 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp3 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 4. Productos de hombre: */
+
+  .title4-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .carousel5 .carousel img {
+    margin: -5% 0% 13% 0%;
+  }
+
+  .famousIcons4 h2 {
+    margin: 18% 15% 0% 15%;
+  }
+
+  .icons4 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp4 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 5. Productos de mujer: */
+
+  .title5-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .carousel6 .carousel img {
+    margin: -5% 0% 13% 0%;
+  }
+
+  .famousIcons5 h2 {
+    margin: 18% 15% 0% 15%;
+  }
+
+  .icons5 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp5 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 6. Todos los productos: */
+
+  .title6-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .famousIcons6 h2 {
+    margin: 18% 15% 0% 15%;
+  }
+
+  .icons6 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp6 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 7. Iniciar sesión */
+
+  .title7-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .form-I-S h2 {
+    margin: 10% 31% 8% 23%;
+  }
+
+  .infoDelCliente-I {
+    margin: -2% 42% 5% 33%;
+    font-size: 1.9em;
+  }
+
+  .infoDelCliente-S {
+    margin: 0% 39% 6% 30%;
+  }
+
+  .submit-I-S,
+  .submit-I-S:visited {
+    margin: 5% 18% 12% 37%;
+  }
+
+  .passwordP {
+    margin: -9% 31% 11% 22%;
+  }
+
+  .botonesI-S button,
+  .botonesI-S button:visited {
+    margin: 1% 0% 4% 35%;
+  }
+
+  .famousIcons7 h2 {
+    margin: 18% 15% 0% 15%;
+  }
+
+  .icons7 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp7 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
+
+  /* 8. Registrate */
+
+  .title8-A {
+    margin: 0% 18% 0% 18%;
+  }
+
+  .form-R-8 h2 {
+    margin: 9% -6% 5% -5%;
+  }
+
+  .info-R-8 {
+    margin: -2% 10% 11% 0%;
+  }
+
+  .p8 {
+    font-size: 3em;
+    margin: 123% 34% 14% 34%;
+  }
+
+  .famousIcons8 h2 {
+    margin: 18% 15% 0% 15%;
+  }
+
+  .icons8 {
+    margin: 5% 22% 3% 22%;
+  }
+
+  .btn-whatsapp8 {
+    right: -427px;
+    bottom: 187px;
+    width: 60%;
+  }
 
 }
