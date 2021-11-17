@@ -61,7 +61,6 @@
 /* Botón flotante de Whatsapp: */
 .btn-whatsapp {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -218,12 +217,11 @@ a {
 
 .btn-whatsapp1 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
-  right: 23px;
-  bottom: 85px;
+  right: 4px;
+  bottom: 96px;
   border-radius: 50%;
   line-height: 80px;
   text-align: center;
@@ -311,7 +309,6 @@ a {
 
 .btn-whatsapp2 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -326,7 +323,7 @@ a {
 
 .iFrameInstagram {
   margin: -4% 5% 18% 4%;
-  width: 92%;
+  width: 92%
 }
 
 .famousIcons2 h2 {
@@ -531,7 +528,6 @@ a {
 
 .btn-whatsapp3 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -658,7 +654,7 @@ a {
   z-index: 10;
 }
 
-.sticker {
+.newArrivalContainer .sticker {
   width: 51px;
   height: 52px;
   position: absolute;
@@ -676,7 +672,7 @@ a {
   }
 }
 
-.msg {
+.newArrivalContainer .msg {
   color: var(--black-light-version);
   text-align: center;
   font-family: "Alegreya Sans", sans-serif;
@@ -693,7 +689,7 @@ a {
   color: var(--black);
   font-size: 1.4em;
   text-align: center;
-  margin: -14% 9% 6% 10%;
+  margin: -12% 9% 6% 10%;
   padding: 14px 0px;
   font-weight: 600;
 }
@@ -718,7 +714,6 @@ a {
 
 .btn-whatsapp4 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -910,7 +905,6 @@ a {
 
 .btn-whatsapp5 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -1182,7 +1176,6 @@ a {
 
 .btn-whatsapp6 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -1383,7 +1376,6 @@ a {
 
 .btn-whatsapp7 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
@@ -1562,7 +1554,6 @@ a {
 
 .btn-whatsapp8 {
   display: block;
-  width: 23px;
   height: 151px;
   color: #fff;
   position: fixed;
