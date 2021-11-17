@@ -649,40 +649,6 @@ a {
   display: flex;
 }
 
-.newArrivalContainer {
-  position: relative;
-  z-index: 10;
-}
-
-.newArrivalContainer .sticker {
-  width: 51px;
-  height: 52px;
-  position: absolute;
-  background: url(./Assets/sticker.png) no-repeat;
-  background-size: 52px;
-  filter: hue-rotate(205deg);
-  top: -15px;
-  right: 30px;
-  animation: spin 15s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-.newArrivalContainer .msg {
-  color: var(--black-light-version);
-  text-align: center;
-  font-family: "Alegreya Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.2em;
-  width: 75px;
-  position: absolute;
-  margin: -2px 0px 0px 268px;
-}
-
 .c2 {
   font-family: "Alegreya Sans", sans-serif;
   border-bottom: 1px solid var(--black);
@@ -836,44 +802,6 @@ a {
   display: flex;
 }
 
-.imgContainer1,
-.newArrivalContainer1 {
-  position: relative;
-}
-
-.newArrivalContainer1 {
-  z-index: 10;
-}
-
-.newArrivalContainer1 .sticker1 {
-  width: 51px;
-  height: 52px;
-  position: absolute;
-  background: url(./Assets/sticker.png) no-repeat;
-  background-size: 52px;
-  filter: hue-rotate(205deg);
-  top: -15px;
-  right: 30px;
-  animation: spin 15s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-.newArrivalContainer1 .msg1 {
-  color: var(--black-light-version);
-  text-align: center;
-  font-family: "Alegreya Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.2em;
-  width: 75px;
-  position: absolute;
-  margin: -2px 0px 0px 268px;
-}
-
 .c4 {
   font-family: "Alegreya Sans", sans-serif;
   border-bottom: 1px solid var(--black);
@@ -998,44 +926,6 @@ a {
   height: 55vh;
   padding: 13px 30px;
   display: flex;
-}
-
-.imgContainer2,
-.newArrivalContainer2 {
-  position: relative;
-}
-
-.newArrivalContainer2 {
-  z-index: 10;
-}
-
-.newArrivalContainer2 .sticker2 {
-  width: 51px;
-  height: 52px;
-  position: absolute;
-  background: url(./Assets/sticker.png) no-repeat;
-  background-size: 52px;
-  filter: hue-rotate(205deg);
-  top: -7px;
-  right: 6px;
-  animation: spin 15s linear infinite;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
-.newArrivalContainer2 .msg2 {
-  color: var(--black-light-version);
-  text-align: center;
-  font-family: "Alegreya Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.2em;
-  width: 75px;
-  position: absolute;
-  margin: 6px 0px 0px 292px;
 }
 
 .calzas1 h3 {
@@ -1612,7 +1502,7 @@ a {
 
   .login {
     margin: -87% -6% 14% 47%;
-    padding: 85px 63px;
+    padding: 80px 63px;
   }
 
   .login h3 {
@@ -1704,7 +1594,7 @@ a {
   }
 
   .title1-B {
-    margin: 4% 34% 0% 38%;
+    margin: 4% 33% 0% 35%;
   }
 
   .p1 {
@@ -1752,8 +1642,8 @@ a {
     margin: 0% 24% 0% 26%;
   }
 
-  .title2-B {
-    margin: 4% 34% 0% 38%;
+  .title1-B {
+    margin: 4% 33% 0% 35%;
   }
 
   .clientesImg img {
@@ -1763,11 +1653,11 @@ a {
   }
 
   .p2 {
-    margin: 6% 18% 14% 19%;
+    margin: 3% 18% 14% 19%;
   }
 
   .famousIcons2 h2 {
-    margin: 20% 18% 0% 20%;
+    margin: 14% 18% 0% 20%;
   }
 
   .icons2 {
@@ -1816,40 +1706,40 @@ a {
   }
 
   .contact h2 {
-    margin: 4% 30% 4% 24%;
+    margin: 4% 30% 4% 22%;
   }
 
   .contact h3 {
-    margin: -8% 16% -7% 9%;
+    margin: -8% 19% -7% 9%;
   }
 
   .infoDelCliente {
-    margin: 8% 30% -13% 25%;
+    margin: 8% 30% -13% 23%;
   }
 
   .tipoDeC {
     margin: 6% 0% -6% 18%;
-    width: 56%;
+    width: 55%;
     height: 8vh;
   }
 
   .typeDeConsulta {
-    margin: 7% 13% 14% 14%;
+    margin: 7% 13% 14% 13%;
   }
 
   .typeDeConsulta h3 {
-    margin: 0% 35% -11% 28%;
+    margin: 0% 35% -11% 26%;
   }
 
   .mensaje {
     margin: -10% 28% 0% 24%;
-    padding: 10px 5px;
+    padding: 10px 7px;
   }
 
   .comentarioTextArea {
     display: block;
-    margin: 1% 0% 1% 3%;
-    width: 91%;
+    margin: 1% 0% 1% 1%;
+    width: 93%;
     height: 27vh;
   }
 
@@ -1865,12 +1755,12 @@ a {
   .submit,
   .submit:visited {
     width: 24%;
-    margin: 0% 19% 0% 33%;
+    margin: 0% 19% 0% 34%;
     padding: 8px 0px;
   }
 
   .p3 {
-    margin: 124% 28% -5% 27%;
+    margin: 124% 26% -5% 28%;
   }
 
   .famousIcons3 h2 {
@@ -1936,16 +1826,6 @@ a {
   .carousel5 .carousel img {
     height: 80vh;
     margin: -11% 0% 13% 1%;
-  }
-
-  .newArrivalContainer .sticker {
-    background-size: 51px;
-    top: -20px;
-    right: 44px;
-  }
-
-  .newArrivalContainer .msg {
-    margin: -7px 0px 0px 373px;
   }
 
   .c2 {
@@ -2026,16 +1906,6 @@ a {
     margin: -9% 0% 13% 1%;
   }
 
-  .newArrivalContainer1 .sticker1 {
-    background-size: 51px;
-    top: -20px;
-    right: 44px;
-  }
-
-  .newArrivalContainer1 .msg1 {
-    margin: -7px 0px 0px 373px;
-  }
-
   .c4 {
     margin: -15% 9% 15% 10%;
   }
@@ -2099,16 +1969,6 @@ a {
 
   .carousel-Nuestros-Productos .carousel img {
     height: 94vh;
-  }
-
-  .newArrivalContainer2 .sticker2 {
-    background-size: 51px;
-    top: -7px;
-    right: 7px;
-  }
-
-  .newArrivalContainer2 .msg2 {
-    margin: 5px 0px 0px 410px;
   }
 
   .calzas1 h3 {
@@ -2340,15 +2200,15 @@ a {
   }
 
   .login {
-    margin: -81% -7% 14% 50%;
-    padding: 178px 63px;
+    margin: -82% -7% 14% 50%;
+    padding: 180px 63px;
   }
 
   .login h3 {
     margin: -15% 2% 0% 0%;
     font-size: 2.1em;
   }
-  
+
   .botones button {
     margin: 16% 0% 7% 1%;
   }
@@ -2380,7 +2240,7 @@ a {
   }
 
   .infoImg {
-    margin: 0% -5% 4% -6%;
+    margin: 0% -5% 4% -5%;
   }
 
   .productosDestacados h2 {
@@ -2505,7 +2365,7 @@ a {
 
   .title2-B {
     font-size: 1.8em;
-    margin: 4% 33% 0% 37%;
+    margin: 4% 33% 0% 35%;
   }
 
   .clientesImg img {
@@ -2525,7 +2385,7 @@ a {
   }
 
   .famousIcons2 h2 {
-    margin: 23% 14% 0% 15%;
+    margin: 15% 14% 0% 15%;
     font-size: 1.7em;
   }
 
@@ -2602,8 +2462,13 @@ a {
   }
 
   .tipoDeC {
-    margin: 7% 2% -10% 21%;
+    margin: 7% 2% -10% 22%;
     width: 45%;
+  }
+
+  select {
+    width: 231px;
+    height: 6vh;
   }
 
   .mensaje {
@@ -2685,7 +2550,7 @@ a {
 
   .title4-B {
     font-size: 1.8em;
-    margin: 4% 33% 0% 37%;
+    margin: 4% 33% 0% 34%;
   }
 
   .productosHombre h3 {
@@ -2711,17 +2576,6 @@ a {
     height: 98vh;
     margin: -9% 0% 14% 1%;
     padding: 79px 169px;
-  }
-
-  .newArrivalContainer .sticker {
-    background-size: 52px;
-    top: -19px;
-    right: 94px;
-  }
-
-  .newArrivalContainer .msg {
-    margin: -6px 0px 0px 611px;
-    font-weight: 600;
   }
 
   .c2 {
@@ -2783,7 +2637,7 @@ a {
 
   .title5-B {
     font-size: 1.8em;
-    margin: 4% 33% 0% 37%;
+    margin: 4% 37% 0% 38%;
   }
 
   .productosMujer img {
@@ -2810,17 +2664,6 @@ a {
     height: 98vh;
     margin: -9% 0% 14% 1%;
     padding: 79px 169px;
-  }
-
-  .newArrivalContainer1 .sticker1 {
-    background-size: 52px;
-    top: -19px;
-    right: 94px;
-  }
-
-  .newArrivalContainer1 .msg1 {
-    margin: -6px 0px 0px 611px;
-    font-weight: 600;
   }
 
   .c4 {
@@ -2882,7 +2725,7 @@ a {
 
   .title6-B {
     font-size: 1.8em;
-    margin: 4% 35% 0% 38%;
+    margin: 4% 35% 0% 37%;
   }
 
   .portada6 {
@@ -2894,24 +2737,13 @@ a {
   .productosTodos h3 {
     font-size: 2em;
     font-weight: 600;
-    margin: 3% 7% 2% 7%;
+    margin: 7% 7% 2% 7%;
   }
 
   .carousel-Nuestros-Productos .carousel img {
     height: 98vh;
     margin: -9% 0% -9% 0%;
     padding: 79px 169px;
-  }
-
-  .newArrivalContainer2 .sticker2 {
-    background-size: 52px;
-    top: -4px;
-    right: 94px;
-  }
-
-  .newArrivalContainer2 .msg2 {
-    margin: 7px 0px 0px 611px;
-    font-weight: 600;
   }
 
   .calzas1 h3 {
@@ -3008,7 +2840,7 @@ a {
 
   .title7-B {
     font-size: 1.8em;
-    margin: 4% 33% 0% 37%;
+    margin: 4% 34% 0% 35%;
   }
 
   .contactUs7 {
@@ -3102,7 +2934,7 @@ a {
 
   .title8-B {
     font-size: 1.8em;
-    margin: 4% 33% 0% 37%;
+    margin: 4% 34% 0% 35%;
   }
 
   .contactUs8 {
@@ -3224,7 +3056,7 @@ a {
 
   .infoDeLaEmpresa p {
     font-size: 2em;
-    margin: -2% 8% 8% 13%;
+    margin: -2% 9% 8% 11%;
   }
 
   .infoImg {
@@ -3253,7 +3085,7 @@ a {
   }
 
   .famousIcons h2 {
-    margin: 9% 14% 0% 15%;
+    margin: 18% 14% 0% 15%;
     font-size: 2.5em;
   }
 
@@ -3429,17 +3261,17 @@ a {
 
   .contact h2 {
     font-size: 2.3em;
-    margin: 6% 31% 9% 25%;
+    margin: 7% 31% 10% 24%;
   }
 
   .contact h3 {
-    margin: -8% 31% -3% 24%;
+    margin: -8% 31% -3% 22%;
     font-size: 1.9em;
   }
 
   .infoDelCliente {
     font-size: 1.6em;
-    margin: 7% 40% -4% 32%;
+    margin: 7% 40% -7% 31%;
   }
 
   .typeDeConsulta {
@@ -3448,24 +3280,29 @@ a {
   }
 
   .tipoDeC {
-    margin: 9% 2% -3% 16%;
+    margin: 9% 2% -2% 15%;
     width: 47%;
   }
 
   .typeDeConsulta h3 {
-    margin: -4% 25% -9% 4%;
+    margin: -3% 25% -10% 4%;
     font-size: 1.7em;
   }
 
+  select {
+    height: 6vh;
+    width: 274px;
+  }
+
   .mensaje {
-    margin: -6% 41% 10% 33%;
+    margin: -8% 41% 10% 33%;
     font-size: 1.6em;
   }
 
   .comentarioTextArea {
     display: block;
-    margin: 9% 0% 1% 2%;
-    width: 100%;
+    margin: 9% 0% 1% -1%;
+    width: 247px;
   }
 
   .novedades h3 {
@@ -3483,7 +3320,7 @@ a {
     padding: 12px 0px;
     font-size: 1.7em;
     width: 19%;
-    margin: -2% 0% 0% 35%;
+    margin: 1% 0% 0% 35%;
   }
 
   .p3 {
@@ -3563,16 +3400,6 @@ a {
   .carousel5 .carousel img {
     height: 116vh;
     margin: -9% 0% 13% 0%;
-  }
-
-  .newArrivalContainer .sticker {
-    background-size: 52px;
-    top: -11px;
-    right: 133px;
-  }
-
-  .newArrivalContainer .msg {
-    margin: 2px 0px 0px 828px;
   }
 
   .c2 {
@@ -3664,16 +3491,6 @@ a {
     margin: -9% 0% 13% 0%;
   }
 
-  .newArrivalContainer1 .sticker1 {
-    background-size: 52px;
-    top: -11px;
-    right: 133px;
-  }
-
-  .newArrivalContainer1 .msg1 {
-    margin: 2px 0px 0px 828px;
-  }
-
   .c4 {
     font-size: 2em;
     margin: -14% 11% 15% 11%;
@@ -3753,15 +3570,6 @@ a {
     height: 97vh;
     margin: -9% 0% 7% 0%;
     padding: 1px 196px;
-  }
-
-  .newArrivalContainer2 .sticker2 {
-    top: -21px;
-    right: 175px;
-  }
-
-  .newArrivalContainer2 .msg2 {
-    margin: -7px 0px 0px 786px;
   }
 
   .fotosProductos h3 {
@@ -4096,7 +3904,7 @@ a {
 
   .carousel1 .carousel img {
     height: 85vh;
-    padding: 66px 344px;
+    padding: 69px 335px;
     margin: -5% 0% 8% 1%;
   }
 
@@ -4196,7 +4004,7 @@ a {
 
   .title2-B {
     font-size: 2.6em;
-    margin: 4% 40% 4% 41%;
+    margin: 4% 37% 4% 39%;
   }
 
   .clientesImg img {
@@ -4265,7 +4073,7 @@ a {
 
   .contact h2 {
     font-size: 3em;
-    margin: 9% 31% 6% 22%;
+    margin: 9% 31% 4% 22%;
   }
 
   .contact h3 {
@@ -4279,13 +4087,18 @@ a {
   }
 
   .contact .typeDeConsulta h3 {
-    margin: -3% 31% 0% 6%;
+    margin: -3% 31% 0% 7%;
     font-size: 2em;
   }
 
   .tipoDeC {
-    margin: 1% 0% -5% 21%;
-    width: 281px;
+    margin: 1% 0% -1% 19%;
+    width: 330px;
+  }
+
+  select {
+    height: 6vh;
+    width: 313px;
   }
 
   .mensaje {
@@ -4314,7 +4127,7 @@ a {
     padding: 15px 0px;
     font-size: 1.7em;
     width: 15%;
-    margin: -2% 0% 0% 36%;
+    margin: 3% 0% 0% 37%;
   }
 
   .p3 {
@@ -4875,9 +4688,9 @@ a {
   }
 
   .btn-whatsapp1 {
-    right: -427px;
+    right: 6px;
     bottom: 187px;
-    }
+  }
 
   /*  2. Nuestros clientes: */
 
@@ -4909,7 +4722,7 @@ a {
   }
 
   .btn-whatsapp2 {
-    right: -427px;
+    right: 7px;
     bottom: 187px;
   }
 
@@ -4928,7 +4741,7 @@ a {
   }
 
   .infoDelCliente {
-    margin: 7% 41% -4% 29%;
+    margin: 6% 41% -4% 29%;
   }
 
   .contact .typeDeConsulta h3 {
@@ -4936,7 +4749,8 @@ a {
   }
 
   .tipoDeC {
-    margin: 2% 2% -1% 19%;
+    margin: -1% 2% -1% 16%;
+    width: 343px;
   }
 
   select {
@@ -4945,12 +4759,22 @@ a {
   }
 
   .mensaje {
-    margin: -6% 45% 10% 32%;
+    margin: -7% 44% 12% 32%;
   }
 
   .comentarioTextArea {
     margin: 10% 0% 0% 1%;
     width: 100%;
+  }
+
+  .answer {
+    margin: 7% -18% 9% 29%;
+    font-size: 2em;
+  }
+
+  .submit,
+  .submit:visited {
+    margin: 3% 0% 0% 36%;
   }
 
   .famousIcons3 h2 {
@@ -4962,7 +4786,7 @@ a {
   }
 
   .btn-whatsapp3 {
-    right: -427px;
+    right: 7px;
     bottom: 187px;
   }
 
@@ -4985,7 +4809,7 @@ a {
   }
 
   .btn-whatsapp4 {
-    right: -427px;
+    right: 12px;
     bottom: 187px;
   }
 
@@ -5008,9 +4832,10 @@ a {
   }
 
   .btn-whatsapp5 {
-    right: -427px;
+    right: 5px;
     bottom: 187px;
   }
+
 
   /* 6. Todos los productos: */
 
@@ -5027,7 +4852,7 @@ a {
   }
 
   .btn-whatsapp6 {
-    right: -427px;
+    right: 10px;
     bottom: 187px;
   }
 
@@ -5073,7 +4898,7 @@ a {
   }
 
   .btn-whatsapp7 {
-    right: -427px;
+    right: 5px;
     bottom: 187px;
   }
 
@@ -5105,7 +4930,7 @@ a {
   }
 
   .btn-whatsapp8 {
-    right: -427px;
+    right: 8px;
     bottom: 187px;
   }
 }
