@@ -48,6 +48,8 @@
   font-size: 0.9em;
   font-weight: 600;
   margin: 8% 4% 2% 1%;
+  padding: 5px 1px;
+  width: 80%;
 }
 
 .botones button:hover {
@@ -55,15 +57,6 @@
   color: var(--beige);
 }
 
-.botones .boton1 button {
-  padding: 5px 1px;
-  width: 80%;
-}
-
-.botones .boton2 button {
-  padding: 5px 1px;
-  width: 80%;
-}
 
 /* Botón flotante de Whatsapp: */
 .btn-whatsapp {
@@ -72,16 +65,13 @@
   height: 151px;
   color: #fff;
   position: fixed;
-  right: 6px;
+  right: 2px;
   bottom: 52px;
   border-radius: 50%;
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp img {
-  width: 36px;
+  width: 30px;
 }
 
 /* Intro: */
@@ -157,7 +147,7 @@
 }
 
 .icons {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -238,10 +228,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp1 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons1 h2 {
@@ -253,7 +240,7 @@ a {
 }
 
 .icons1 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -334,10 +321,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp2 img {
-  width: 36px;
+  width: 30px;
 }
 
 .iFrameInstagram {
@@ -354,7 +338,7 @@ a {
 }
 
 .icons2 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -557,10 +541,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp3 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons3 h2 {
@@ -572,7 +553,7 @@ a {
 }
 
 .icons3 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -747,10 +728,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp4 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons4 h2 {
@@ -762,7 +740,7 @@ a {
 }
 
 .icons4 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -942,10 +920,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp5 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons5 h2 {
@@ -957,7 +932,7 @@ a {
 }
 
 .icons5 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -1217,10 +1192,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp6 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons6 h2 {
@@ -1232,7 +1204,7 @@ a {
 }
 
 .icons6 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -1421,10 +1393,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp7 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons7 h2 {
@@ -1436,7 +1405,7 @@ a {
 }
 
 .icons7 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -1603,10 +1572,7 @@ a {
   line-height: 80px;
   text-align: center;
   z-index: 999;
-}
-
-.btn-whatsapp8 img {
-  width: 36px;
+  width: 30px;
 }
 
 .famousIcons8 h2 {
@@ -1618,7 +1584,7 @@ a {
 }
 
 .icons8 {
-  margin: 4% 22% 3% 25%;
+  margin: 4% 20% 3% 22%;
   display: flex;
   justify-content: space-around;
 }
@@ -2391,6 +2357,10 @@ a {
     margin: -15% 2% 0% 0%;
     font-size: 2.1em;
   }
+  
+  .botones button {
+    margin: 16% 0% 7% 1%;
+  }
 
   .botones .boton1 button {
     padding: 9px 1px;
@@ -2401,10 +2371,6 @@ a {
     margin: 2% 0% 0% 1%;
     padding: 9px 0px;
     width: 53%;
-  }
-
-  .botones button {
-    margin: 16% 0% 7% 1%;
   }
 
   .infoDeLaEmpresa h2 {
@@ -2808,7 +2774,6 @@ a {
     right: 11px;
     bottom: 146px;
   }
-
 
   /* 5. Productos de mujer: */
 
@@ -4170,9 +4135,6 @@ a {
   .btn-whatsapp {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp img {
     width: 62px;
   }
 
@@ -4223,9 +4185,6 @@ a {
   .btn-whatsapp1 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp1 img {
     width: 62px;
   }
 
@@ -4280,9 +4239,6 @@ a {
   .btn-whatsapp2 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp2 img {
     width: 62px;
   }
 
@@ -4391,9 +4347,6 @@ a {
   .btn-whatsapp3 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp3 img {
     width: 62px;
   }
 
@@ -4475,9 +4428,6 @@ a {
   .btn-whatsapp4 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp4 img {
     width: 62px;
   }
 
@@ -4564,9 +4514,6 @@ a {
   .btn-whatsapp5 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp5 img {
     width: 62px;
   }
 
@@ -4701,9 +4648,6 @@ a {
   .btn-whatsapp6 {
     right: 17px;
     bottom: 225px;
-  }
-
-  .btn-whatsapp6 img {
     width: 62px;
   }
 
@@ -4786,9 +4730,6 @@ a {
   .btn-whatsapp7 {
     right: 17px;
     bottom: 332px;
-  }
-
-  .btn-whatsapp7 img {
     width: 62px;
   }
 
@@ -4869,9 +4810,6 @@ a {
   .btn-whatsapp8 {
     right: 17px;
     bottom: 332px;
-  }
-
-  .btn-whatsapp8 img {
     width: 62px;
   }
 }
@@ -4948,8 +4886,7 @@ a {
   .btn-whatsapp1 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
-  }
+    }
 
   /*  2. Nuestros clientes: */
 
@@ -4983,7 +4920,6 @@ a {
   .btn-whatsapp2 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 3. Contacto: */
@@ -5037,7 +4973,6 @@ a {
   .btn-whatsapp3 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 4. Productos de hombre: */
@@ -5061,7 +4996,6 @@ a {
   .btn-whatsapp4 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 5. Productos de mujer: */
@@ -5085,7 +5019,6 @@ a {
   .btn-whatsapp5 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 6. Todos los productos: */
@@ -5105,7 +5038,6 @@ a {
   .btn-whatsapp6 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 7. Iniciar sesión */
@@ -5152,7 +5084,6 @@ a {
   .btn-whatsapp7 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
 
   /* 8. Registrate */
@@ -5185,7 +5116,5 @@ a {
   .btn-whatsapp8 {
     right: -427px;
     bottom: 187px;
-    width: 60%;
   }
-
 }
