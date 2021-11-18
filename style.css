@@ -1912,30 +1912,30 @@
     height: 94vh;
     margin: 2% 11% 7% 10%;
   }
-  .fotosProductos .tops {
+  .fotosProductos .tops2 .tops {
     width: 80%;
     height: 46vh;
     margin: 2% 11% 6% 10%;
   }
-  .fotosProductos .conjuntos {
+  .fotosProductos .conjuntos3 .conjuntos {
     width: 80%;
     margin: 2% 12% 7% 10%;
   }
-  .fotosProductos .cuellitos {
+  .fotosProductos .cuellitos4 .cuellitos {
     width: 80%;
     height: 57vh;
     margin: 2% 12% 6% 10%;
   }
-  .fotosProductos .gorras {
+  .fotosProductos .gorras5 .gorras {
     width: 80%;
     margin: 2% 7% 8% 10%;
   }
-  .fotosProductos .remerasPersonalizadas {
+  .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
     width: 80%;
     height: 67vh;
     margin: 2% 14% 6% 11%;
   }
-  .fotosProductos .remerasDeportivas {
+  .fotosProductos .remerasDeportivas7 .remerasDeportivas {
     width: 80%;
     height: 59vh;
     margin: 2% 12% 7% 11%;
@@ -2514,27 +2514,38 @@
   }
   .fotosProductos .calzas1 .calzas {
     height: 106vh;
+    width: 80%;
+    margin: 1% 1% 1% 10%;
   }
-  .fotosProductos .tops {
+  .fotosProductos .tops2 .tops {
     height: 70vh;
+    width: 80%;
+    margin: 1% 1% 1% 10%;
   }
-  .fotosProductos .conjuntos {
+  .fotosProductos .conjuntos3 .conjuntos {
     height: 125vh;
+    width: 80%;
+    margin: 1% 1% 1% 10%;
   }
-  .fotosProductos .cuellitos {
+  .fotosProductos .cuellitos4 .cuellitos {
     height: 95vh;
+    width: 80%;
+    margin: 1% 1% 1% 10%;
   }
-  .fotosProductos .gorras {
+  .fotosProductos .gorras5 .gorras {
     height: 105vh;
-    margin: 2% 7% 8% 10%;
+    margin: 1% 1% 1% 10%;
+    width: 80%;
   }
-  .fotosProductos .remerasPersonalizadas {
+  .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
     height: 98vh;
-    margin: 2% 14% 6% 11%;
+    margin: 1% 1% 1% 10%;
+    width: 80%;
   }
-  .fotosProductos .remerasDeportivas {
+  .fotosProductos .remerasDeportivas7 .remerasDeportivas {
     height: 98vh;
-    margin: 2% 12% 7% 11%;
+    margin: 1% 1% 1% 10%;
+    width: 80%;
   }
   .ultimaParte .c6 {
     font-size: 2em;
@@ -3798,42 +3809,42 @@
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .tops2 .tops {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .fotosProductos .conjuntos3 h3 {
     font-size: 3em;
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .conjuntos3 .conjuntos {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .fotosProductos .cuellitos4 h3 {
     font-size: 3em;
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .cuellitos4 .cuellitos {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .fotosProductos .gorras5 h3 {
     font-size: 3em;
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .gorras5 .gorras {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .fotosProductos .remerasPersonalizadas6 h3 {
     font-size: 3em;
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .remerasPersonalizadas6 .remerasPersonalizadas {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .fotosProductos .remerasDeportivas7 h3 {
     font-size: 3em;
     margin: 4% 6% 0% 7%;
   }
   .productosTodos .fotosProductos .remerasDeportivas7 .remerasDeportivas {
-    margin: 2% 11% 3% 20%;
+    margin: 2% 11% 3% 10%;
   }
   .productosTodos .ultimaParte .c6 {
     font-size: 2.6em;
